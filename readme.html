@@ -1,98 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="robots" content="noindex,nofollow" />
-	<title>WordPress &#8250; ReadMe</title>
+	<title>WordPress &#8250; Hướng Dẫn</title>
 	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
 <h1 id="logo">
 	<a href="https://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" /></a>
 </h1>
-<p style="text-align: center">Semantic Personal Publishing Platform</p>
+<p style="text-align: center">Nền Tảng Xuất Bản Cá Nhân</p>
 
-<h2>First Things First</h2>
-<p>Welcome. WordPress is a very special project to me. Every developer and contributor adds something unique to the mix, and together we create something beautiful that I am proud to be a part of. Thousands of hours have gone into WordPress, and we are dedicated to making it better every day. Thank you for making it part of your world.</p>
+<h2>Lời Mở Đầu</h2>
+<p>Chào mừng bạn. WordPress là một dự án rất đặc biệt đối với tôi. Mỗi nhà phát triển và người đóng góp đều mang đến điều gì đó độc đáo, và cùng nhau chúng tôi tạo ra một sản phẩm tuyệt vời mà tôi tự hào được là một phần của nó. Hàng nghìn giờ đã được đổ vào WordPress, và chúng tôi cam kết làm cho nó tốt hơn mỗi ngày. Cảm ơn bạn đã làm cho nó trở thành một phần trong thế giới của bạn.</p>
 <p style="text-align: right">&#8212; Matt Mullenweg</p>
 
-<h2>Installation: Famous 5-minute install</h2>
+<h2>Cài Đặt: Quy trình cài đặt nổi tiếng 5 phút</h2>
 <ol>
-	<li>Unzip the package in an empty directory and upload everything.</li>
-	<li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser. It will take you through the process to set up a <code>wp-config.php</code> file with your database connection details.
+	<li>Giải nén gói trong một thư mục trống và tải lên tất cả.</li>
+	<li>Mở <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> trong trình duyệt của bạn. Nó sẽ hướng dẫn bạn quy trình thiết lập tệp <code>wp-config.php</code> với chi tiết kết nối cơ sở dữ liệu của bạn.
 		<ol>
-			<li>If for some reason this does not work, do not worry. It may not work on all web hosts. Open up <code>wp-config-sample.php</code> with a text editor like WordPad or similar and fill in your database connection details.</li>
-			<li>Save the file as <code>wp-config.php</code> and upload it.</li>
-			<li>Open <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> in your browser.</li>
+			<li>Nếu vì lý do nào đó điều này không hoạt động, đừng lo lắng. Nó có thể không hoạt động trên tất cả các máy chủ web. Mở <code>wp-config-sample.php</code> bằng trình soạn thảo văn bản như WordPad hoặc tương tự và điền vào chi tiết kết nối cơ sở dữ liệu của bạn.</li>
+			<li>Lưu tệp dưới dạng <code>wp-config.php</code> và tải lên.</li>
+			<li>Mở <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> trong trình duyệt của bạn.</li>
 		</ol>
 	</li>
-	<li>Once the configuration file is set up, the installer will set up the tables needed for your site. If there is an error, double check your <code>wp-config.php</code> file, and try again. If it fails again, please go to the <a href="https://wordpress.org/support/forums/">WordPress support forums</a> with as much data as you can gather.</li>
-	<li><strong>If you did not enter a password, note the password given to you.</strong> If you did not provide a username, it will be <code>admin</code>.</li>
-	<li>The installer should then send you to the <a href="wp-login.php">login page</a>. Sign in with the username and password you chose during the installation. If a password was generated for you, you can then click on &#8220;Profile&#8221; to change the password.</li>
+	<li>Khi tệp cấu hình được thiết lập, trình cài đặt sẽ thiết lập các bảng cần thiết cho trang web của bạn. Nếu có lỗi, hãy kiểm tra lại tệp <code>wp-config.php</code> của bạn và thử lại. Nếu nó lại thất bại, vui lòng truy cập <a href="https://wordpress.org/support/forums/">diễn đàn hỗ trợ WordPress</a> với càng nhiều dữ liệu càng tốt.</li>
+	<li><strong>Nếu bạn không nhập mật khẩu, hãy ghi chú mật khẩu được cung cấp cho bạn.</strong> Nếu bạn không cung cấp tên người dùng, nó sẽ là <code>admin</code>.</li>
+	<li>Trình cài đặt sau đó sẽ đưa bạn đến <a href="wp-login.php">trang đăng nhập</a>. Đăng nhập bằng tên người dùng và mật khẩu bạn đã chọn trong quá trình cài đặt. Nếu mật khẩu được tạo cho bạn, bạn có thể nhấp vào &#8220;Hồ sơ&#8221; để thay đổi mật khẩu.</li>
 </ol>
 
-<h2>Updating</h2>
-<h3>Using the Automatic Updater</h3>
+<h2>Cập Nhật</h2>
+<h3>Sử Dụng Trình Cập Nhật Tự Động</h3>
 <ol>
-	<li>Open <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> in your browser and follow the instructions.</li>
-	<li>You wanted more, perhaps? That&#8217;s it!</li>
+	<li>Mở <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> trong trình duyệt của bạn và làm theo hướng dẫn.</li>
+	<li>Bạn muốn nhiều hơn? Chỉ có vậy thôi!</li>
 </ol>
 
-<h3>Updating Manually</h3>
+<h3>Cập Nhật Thủ Công</h3>
 <ol>
-	<li>Before you update anything, make sure you have backup copies of any files you may have modified such as <code>index.php</code>.</li>
-	<li>Delete your old WordPress files, saving ones you&#8217;ve modified.</li>
-	<li>Upload the new files.</li>
-	<li>Point your browser to <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+	<li>Trước khi cập nhật bất cứ thứ gì, hãy đảm bảo bạn có bản sao lưu của bất kỳ tệp nào bạn có thể đã sửa đổi như <code>index.php</code>.</li>
+	<li>Xóa các tệp WordPress cũ của bạn, lưu lại những tệp bạn đã sửa đổi.</li>
+	<li>Tải lên các tệp mới.</li>
+	<li>Trỏ trình duyệt của bạn đến <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
 </ol>
 
-<h2>Migrating from other systems</h2>
-<p>WordPress can <a href="https://developer.wordpress.org/advanced-administration/wordpress/import/">import from a number of systems</a>. First you need to get WordPress installed and working as described above, before using <a href="wp-admin/import.php">our import tools</a>.</p>
+<h2>Di chuyển từ các hệ thống khác</h2>
+<p>WordPress có thể <a href="https://developer.wordpress.org/advanced-administration/wordpress/import/">nhập từ nhiều hệ thống khác nhau</a>. Trước tiên, bạn cần cài đặt và làm việc với WordPress như mô tả ở trên, trước khi sử dụng <a href="wp-admin/import.php">công cụ nhập của chúng tôi</a>.</p>
 
-<h2>System Requirements</h2>
+<h2>Yêu Cầu Hệ Thống</h2>
 <ul>
-	<li><a href="https://www.php.net/">PHP</a> version <strong>7.2.24</strong> or greater.</li>
-	<li><a href="https://www.mysql.com/">MySQL</a> version <strong>5.5.5</strong> or greater.</li>
+	<li><a href="https://www.php.net/">PHP</a> phiên bản <strong>7.2.24</strong> trở lên.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> phiên bản <strong>5.5.5</strong> trở lên.</li>
 </ul>
 
-<h3>Recommendations</h3>
+<h3>Khuyến nghị</h3>
 <ul>
-	<li><a href="https://www.php.net/">PHP</a> version <strong>7.4</strong> or greater.</li>
-	<li><a href="https://www.mysql.com/">MySQL</a> version <strong>8.0</strong> or greater OR <a href="https://mariadb.org/">MariaDB</a> version <strong>10.5</strong> or greater.</li>
-	<li>The <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a> Apache module.</li>
-	<li><a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a> support.</li>
-	<li>A link to <a href="https://wordpress.org/">wordpress.org</a> on your site.</li>
+	<li><a href="https://www.php.net/">PHP</a> phiên bản <strong>7.4</strong> trở lên.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> phiên bản <strong>8.0</strong> trở lên HOẶC <a href="https://mariadb.org/">MariaDB</a> phiên bản <strong>10.5</strong> trở lên.</li>
+	<li>Module Apache <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a>.</li>
+	<li>Hỗ trợ <a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a>.</li>
+	<li>Một liên kết đến <a href="https://wordpress.org/">wordpress.org</a> trên trang web của bạn.</li>
 </ul>
 
-<h2>Online Resources</h2>
-<p>If you have any questions that are not addressed in this document, please take advantage of WordPress&#8217; numerous online resources:</p>
+<h2>Tài Nguyên Trực Tuyến</h2>
+<p>Nếu bạn có bất kỳ câu hỏi nào không được đề cập trong tài liệu này, vui lòng tận dụng các tài nguyên trực tuyến phong phú của WordPress:</p>
 <dl>
 	<dt><a href="https://wordpress.org/documentation/">HelpHub</a></dt>
-		<dd>HelpHub is the encyclopedia of all things WordPress. It is the most comprehensive source of information for WordPress available.</dd>
-	<dt><a href="https://wordpress.org/news/">The WordPress Blog</a></dt>
-		<dd>This is where you&#8217;ll find the latest updates and news related to WordPress. Recent WordPress news appears in your administrative dashboard by default.</dd>
+		<dd>HelpHub là bách khoa toàn thư về tất cả mọi thứ liên quan đến WordPress. Đây là nguồn thông tin toàn diện nhất cho WordPress hiện có.</dd>
+	<dt><a href="https://wordpress.org/news/">Blog WordPress</a></dt>
+		<dd>Đây là nơi bạn sẽ tìm thấy các cập nhật và tin tức mới nhất liên quan đến WordPress. Tin tức WordPress gần đây xuất hiện trong bảng điều khiển quản trị của bạn theo mặc định.</dd>
 	<dt><a href="https://planet.wordpress.org/">WordPress Planet</a></dt>
-		<dd>The WordPress Planet is a news aggregator that brings together posts from WordPress blogs around the web.</dd>
-	<dt><a href="https://wordpress.org/support/forums/">WordPress Support Forums</a></dt>
-		<dd>If you&#8217;ve looked everywhere and still cannot find an answer, the support forums are very active and have a large community ready to help. To help them help you be sure to use a descriptive thread title and describe your question in as much detail as possible.</dd>
-	<dt><a href="https://make.wordpress.org/support/handbook/appendix/other-support-locations/introduction-to-irc/">WordPress <abbr>IRC</abbr> (Internet Relay Chat) Channel</a></dt>
-		<dd>There is an online chat channel that is used for discussion among people who use WordPress and occasionally support topics. The above wiki page should point you in the right direction. (<a href="https://web.libera.chat/#wordpress">irc.libera.chat #wordpress</a>)</dd>
+		<dd>WordPress Planet là một trang tổng hợp tin tức mang lại các bài đăng từ các blog WordPress trên khắp web.</dd>
+	<dt><a href="https://wordpress.org/support/forums/">Diễn Đàn Hỗ Trợ WordPress</a></dt>
+		<dd>Nếu bạn đã tìm kiếm ở mọi nơi và vẫn không thể tìm thấy câu trả lời, các diễn đàn hỗ trợ rất hoạt động và có một cộng đồng lớn sẵn sàng giúp đỡ. Để giúp họ giúp bạn, hãy đảm bảo sử dụng tiêu đề chủ đề mô tả và mô tả câu hỏi của bạn càng chi tiết càng tốt.</dd>
+	<dt><a href="https://make.wordpress.org/support/handbook/appendix/other-support-locations/introduction-to-irc/">Kênh <abbr>IRC</abbr> (Internet Relay Chat) của WordPress</a></dt>
+		<dd>Có một kênh trò chuyện trực tuyến được sử dụng để thảo luận giữa những người sử dụng WordPress và đôi khi là các chủ đề hỗ trợ. Trang wiki trên sẽ hướng dẫn bạn đúng hướng. (<a href="https://web.libera.chat/#wordpress">irc.libera.chat #wordpress</a>)</dd>
 </dl>
 
-<h2>Final Notes</h2>
+<h2>Ghi Chú Cuối Cùng</h2>
 <ul>
-	<li>If you have any suggestions, ideas, or comments, or if you (gasp!) found a bug, join us in the <a href="https://wordpress.org/support/forums/">Support Forums</a>.</li>
-	<li>WordPress has a robust plugin <abbr>API</abbr> (Application Programming Interface) that makes extending the code easy. If you are a developer interested in utilizing this, see the <a href="https://developer.wordpress.org/plugins/">Plugin Developer Handbook</a>. You shouldn&#8217;t modify any of the core code.</li>
+	<li>Nếu bạn có bất kỳ đề xuất, ý tưởng hoặc nhận xét nào, hoặc nếu bạn (ôi!) tìm thấy lỗi, hãy tham gia với chúng tôi trong <a href="https://wordpress.org/support/forums/">Diễn Đàn Hỗ Trợ</a>.</li>
+	<li>WordPress có một <abbr>API</abbr> (Giao Diện Lập Trình Ứng Dụng) plugin mạnh mẽ giúp việc mở rộng mã trở nên dễ dàng. Nếu bạn là nhà phát triển quan tâm đến việc sử dụng điều này, hãy xem <a href="https://developer.wordpress.org/plugins/">Sổ Tay Nhà Phát Triển Plugin</a>. Bạn không nên sửa đổi bất kỳ mã cốt lõi nào.</li>
 </ul>
 
-<h2>Share the Love</h2>
-<p>WordPress has no multi-million dollar marketing campaign or celebrity sponsors, but we do have something even better&#8212;you. If you enjoy WordPress please consider telling a friend, setting it up for someone less knowledgeable than yourself, or writing the author of a media article that overlooks us.</p>
+<h2>Chia Sẻ Tình Yêu</h2>
+<p>WordPress không có chiến dịch tiếp thị hàng triệu đô la hoặc nhà tài trợ nổi tiếng, nhưng chúng tôi có điều gì đó thậm chí còn tốt hơn&#8212;bạn. Nếu bạn thích WordPress, vui lòng cân nhắc việc nói với bạn bè, thiết lập nó cho người ít hiểu biết hơn bạn, hoặc viết cho tác giả của một bài báo truyền thông bỏ qua chúng tôi.</p>
 
-<p>WordPress is the official continuation of b2/caf&#233;log, which came from Michel V. The work has been continued by the <a href="https://wordpress.org/about/">WordPress developers</a>. If you would like to support WordPress, please consider <a href="https://wordpress.org/donate/">donating</a>.</p>
+<p>WordPress là sự tiếp nối chính thức của b2/caf&#233;log, xuất phát từ Michel V. Công việc đã được tiếp tục bởi <a href="https://wordpress.org/about/">các nhà phát triển WordPress</a>. Nếu bạn muốn hỗ trợ WordPress, vui lòng cân nhắc <a href="https://wordpress.org/donate/">quyên góp</a>.</p>
 
-<h2>License</h2>
-<p>WordPress is free software, and is released under the terms of the <abbr>GPL</abbr> (GNU General Public License) version 2 or (at your option) any later version. See <a href="license.txt">license.txt</a>.</p>
+<h2>Giấy Phép</h2>
+<p>WordPress là phần mềm miễn phí và được phát hành theo các điều khoản của <abbr>GPL</abbr> (Giấy Phép Công Cộng GNU) phiên bản 2 hoặc (tùy chọn của bạn) bất kỳ phiên bản nào sau này. Xem <a href="license.txt">license.txt</a>.</p>
 
 </body>
 </html>
